@@ -57,9 +57,11 @@ The symbols ↑/↓ indicate that a higher/lower score is better, and the best p
 | **Ours** | **4.4**  | **0.901**  | 0.843  | 0.034  | 0.925  | **0.941**  | **0.916**  | **0.017**  | **0.967**  | **0.901**  | **0.853**  | **0.028**  | **0.936**  |
 
 # BibTeX
+```
 @article{zhang2025parameter,
   title={Efficient Multi-Modal Tuning via Visual Prompts for Salient Object Detection},
   author={Zhang, Zixuan and Shi, Fan and Jia, Chen and Wang, Mianzhao and Louis, Assale Adje and Cheng, Xu},
   journal={The Visual Computer},
   year={2025},
 }
+```
