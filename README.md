@@ -3,9 +3,9 @@ The official repository of "Efficient Multi-Modal Tuning via Visual Prompts for 
 The code and results can be downloaded from this link: https://pan.baidu.com/s/1K3_XnM8iSrmBGwmyVpokjw?pwd=emmt 
 Extraction code: emmt
 
-# Quantitative results of different RGB SOD methods
+# Results
+## Quantitative results of different RGB SOD methods
 The symbols ↑/↓ indicate that a higher/lower score is better, and the best performances are in bold.
-
 | Method | Params ↓ | PASCAL-S Sm ↑ | PASCAL-S Fβω ↑ | PASCAL-S MAE ↓ | PASCAL-S Em ↑ | HKU-IS Sm ↑ | HKU-IS Fβω ↑ | HKU-IS MAE ↓ | HKU-IS Em ↑ | DUTS-TE Sm ↑ | DUTS-TE Fβω ↑ | DUTS-TE MAE ↓ | DUTS-TE Em ↑ | DUT-OMRON Sm ↑ | DUT-OMRON Fβω ↑ | DUT-OMRON MAE ↓ | DUT-OMRON Em ↑ |
 |---------|----------|-------------|--------------|--------------|------------|------------|--------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
 | GateNet | 128.6 | 0.854 | 0.804 | 0.071 | 0.900 | 0.915 | 0.880 | 0.033 | 0.955 | 0.885 | 0.809 | 0.040 | 0.928 | 0.838 | 0.729 | 0.055 | 0.876 |
@@ -17,9 +17,8 @@ The symbols ↑/↓ indicate that a higher/lower score is better, and the best p
 | BSNet | 53.0 | 0.842 | 0.800 | 0.066 | 0.897 | 0.906 | 0.891 | 0.031 | 0.954 | 0.856 | 0.797 | 0.043 | 0.915 | 0.815 | 0.724 | 0.058 | 0.863 |
 | **Ours** | **4.4** | **0.881** | **0.847** | **0.053** | **0.920** | **0.931** | **0.921** | 0.024 | **0.962** | **0.915** | **0.881** | **0.027** | **0.949** | **0.862** | **0.790** | **0.046** | **0.893** |
 
-# Quantitative results of different Light Field SOD methods
+## Quantitative results of different Light Field SOD methods
 The symbols ↑/↓ indicate that a higher/lower score is better, and the best performances are in bold.
-
 | Method | Params ↓ | DUTLF-V2 Sm ↑ | DUTLF-V2 Fβω ↑ | DUTLF-V2 MAE ↓ | DUTLF-V2 Em ↑ |
 |--------|---------|--------------|--------------|--------------|--------------|
 | SA-Net | 66.9  | 0.857 | 0.792 | 0.046 | 0.906 |
@@ -29,9 +28,8 @@ The symbols ↑/↓ indicate that a higher/lower score is better, and the best p
 | CDINet | -     | 0.905 | 0.861 | 0.033 | 0.933 |
 | **Ours** | **4.4**  | **0.919** | **0.884** | **0.027** | **0.951** |
 
-# Quantitative results of different RGB-D SOD methods
+## Quantitative results of different RGB-D SOD methods
 The symbols ↑/↓ indicate that a higher/lower score is better, and the best performances are in bold.
-
 | Method | Params ↓ | SIP Sm ↑ | SIP Fβ ↑ | SIP MAE ↓ | SIP Em ↑ | STERE Sm ↑ | STERE Fβ ↑ | STERE MAE ↓ | STERE Em ↑ | NJU2K Sm ↑ | NJU2K Fβ ↑ | NJU2K MAE ↓ | NJU2K Em ↑ |
 |--------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | CMINet | 196.2  | 0.899  | 0.872  | 0.040  | **0.937**  | 0.918  | 0.886  | 0.032  | 0.948  | 0.929  | 0.910  | 0.029  | **0.953**  |
@@ -44,9 +42,8 @@ The symbols ↑/↓ indicate that a higher/lower score is better, and the best p
 | LSNet | 4.6  | 0.886  | 0.847  | 0.050  | 0.920  | 0.871  | 0.816  | 0.055  | 0.908  | 0.911  | 0.878  | 0.039  | 0.939  |
 | **Ours** | **4.4**  | **0.908**  | **0.884**  | **0.036**  | 0.908  | **0.924**  | **0.894**  | **0.030**  | **0.951**  | 0.929  | **0.907**  | 0.029  | **0.953**  |
 
-# Quantitative results of different RGB-T SOD methods
+## Quantitative results of different RGB-T SOD methods
 The symbols ↑/↓ indicate that a higher/lower score is better, and the best performances are in bold.
-
 | Method  | Params ↓ | VT821 Sm ↑ | VT821 Fβω ↑ | VT821 MAE ↓ | VT821 Em ↑ | VT1000 Sm ↑ | VT1000 Fβω ↑ | VT1000 MAE ↓ | VT1000 Em ↑ | VT5000 Sm ↑ | VT5000 Fβω ↑ | VT5000 MAE ↓ | VT5000 Em ↑ |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | ECFFNet | -     | 0.877  | 0.799  | 0.035  | 0.907  | 0.924  | 0.883  | 0.022  | 0.910  | 0.875  | 0.800  | 0.038  | 0.910  |
@@ -58,3 +55,11 @@ The symbols ↑/↓ indicate that a higher/lower score is better, and the best p
 | CAVER   | 55.8  | 0.891  | 0.835  | 0.033  | 0.926  | 0.936  | 0.909  | **0.017**  | 0.965  | 0.892  | 0.835  | 0.032  | 0.930  |
 | TMMANet | 141   | 0.880  | 0.804  | 0.032  | 0.908  | 0.939  | 0.908  | 0.018  | 0.946  | 0.898  | 0.836  | 0.030  | 0.929  |
 | **Ours** | **4.4**  | **0.901**  | 0.843  | 0.034  | 0.925  | **0.941**  | **0.916**  | **0.017**  | **0.967**  | **0.901**  | **0.853**  | **0.028**  | **0.936**  |
+
+# BibTeX
+@article{zhang2025parameter,
+  title={Efficient Multi-Modal Tuning via Visual Prompts for Salient Object Detection},
+  author={Zhang, Zixuan and Shi, Fan and Jia, Chen and Wang, Mianzhao and Louis, Assale Adje and Cheng, Xu},
+  journal={The Visual Computer},
+  year={2025},
+}
